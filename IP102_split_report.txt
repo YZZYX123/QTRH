@@ -34,5 +34,5 @@ HARD Difficulty:
   Classes: 45
   Similar pairs: 990
   Total samples: 37812
-  similarity: 0.9369
+  similarity>0.7
 

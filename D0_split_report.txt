@@ -1,14 +1,9 @@
 Morphological Split Report for D0
 ============================================================
 
-Note: Non-overlapping splits (except Hard includes all)
-
 Overall Statistics:
-Total classes in original dataset: 39
+Total classes in original dataset: 40
 Selected classes for morphological splits: 25
-
-Pyramid Structure (Non-overlapping, Ascending Order):
-Extreme (smallest, hardest) < High < Moderate < Hard (largest, easiest)
 
 Difficulty Distribution:
 
@@ -16,54 +11,22 @@ EXTREME Difficulty:
   Classes: 5
   Similar pairs: 10
   Total samples: 474
-  Avg similarity: 0.9213
-  Top 5 pairs:
-    1. Chauliops fallax Scott <-> Dolycoris baccarum Linnaeus: 0.9461
-    2. Dolycoris baccarum Linnaeus <-> Stollia ventralis Westwood: 0.9441
-    3. Cletus punctiger Dallas <-> Dolycoris baccarum Linnaeus: 0.9412
-    4. Cletus punctiger Dallas <-> Stollia ventralis Westwood: 0.9359
-    5. Chauliops fallax Scott <-> Stollia ventralis Westwood: 0.9291
+  similarity > 0.90
 
 HIGH Difficulty:
   Classes: 6
   Similar pairs: 15
   Total samples: 687
-  Avg similarity: 0.8878
-  Top 5 pairs:
-    1. Laodelphax striatellus Falln <-> Nilaparvata lugens Stl: 0.9601
-    2. Cicadella viridis Linnaeus <-> Laodelphax striatellus Falln: 0.9434
-    3. Cicadella viridis Linnaeus <-> Nilaparvata lugens Stl: 0.9333
-    4. Nezara viridula Linnaeus <-> Scotinophara lurida Burmeister: 0.9037
-    5. Laodelphax striatellus Falln <-> Strongyllodes variegatus Fairmaire: 0.8997
+  similarity: 0.85~0.90
 
 MODERATE Difficulty:
   Classes: 8
   Similar pairs: 28
   Total samples: 1026
-  Avg similarity: 0.8531
-  Top 5 pairs:
-    1. Graphosoma rubrolineata Westwood <-> Eurydema dominulus Scopoli: 0.9405
-    2. Spodoptera litura Fabricius <-> Dolerus tritici Chu: 0.9396
-    3. Phyllotreta striolata Fabricius <-> Eurydema dominulus Scopoli: 0.9388
-    4. Phyllotreta striolata Fabricius <-> Graphosoma rubrolineata Westwood: 0.8825
-    5. Spodoptera litura Fabricius <-> Corythucha marmorataUhler: 0.8810
+  similarity: 0.80~0.85
 
 HARD Difficulty:
   Classes: 25
   Similar pairs: 300
   Total samples: 2916
-  Avg similarity: 0.8648
-  Top 5 pairs:
-    1. Luperomorpha suturalis Chen <-> Aulacophora indica Gmelin: 0.9628
-    2. Cletus punctiger Dallas <-> Leptocorisa acuta Thunberg: 0.9607
-    3. Laodelphax striatellus Falln <-> Nilaparvata lugens Stl: 0.9601
-    4. Chauliops fallax Scott <-> Strongyllodes variegatus Fairmaire: 0.9534
-    5. Bemisia tabaci Gennadius <-> Empoasca flavescens Fabricius: 0.9502
-
-============================================================
-Verification of Non-overlapping Property:
-Extreme ∩ High: 0
-Extreme ∩ Moderate: 0
-High ∩ Moderate: 0
-Extreme ∪ High ∪ Moderate: 19
-Hard contains all: True
+  similarity > 0.75

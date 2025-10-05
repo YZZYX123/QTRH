@@ -1,14 +1,11 @@
 Morphological Split Report for IP102
 ============================================================
 
-Note: Non-overlapping splits (except Hard includes all)
 
 Overall Statistics:
 Total classes in original dataset: 102
 Selected classes for morphological splits: 45
 
-Pyramid Structure (Non-overlapping, Ascending Order):
-Extreme (smallest, hardest) < High < Moderate < Hard (largest, easiest)
 
 Difficulty Distribution:
 
@@ -16,54 +13,26 @@ EXTREME Difficulty:
   Classes: 9
   Similar pairs: 36
   Total samples: 5009
-  Avg similarity: 0.9761
-  Top 5 pairs:
-    1. english grain aphid <-> bird cherry-oataphid: 0.9953
-    2. english grain aphid <-> green bug: 0.9913
-    3. green bug <-> bird cherry-oataphid: 0.9907
-    4. Thrips <-> therioaphis maculata Buckton: 0.9881
-    5. therioaphis maculata Buckton <-> bird cherry-oataphid: 0.9874
+  similarity > 0.90
+   
 
 HIGH Difficulty:
   Classes: 11
   Similar pairs: 55
   Total samples: 12733
   Avg similarity: 0.9591
-  Top 5 pairs:
-    1. small brown plant hopper <-> brown plant hopper: 0.9956
-    2. Toxoptera citricidus <-> Toxoptera aurantii: 0.9947
-    3. cabbage army worm <-> beet army worm: 0.9935
-    4. Prodenia litura <-> cabbage army worm: 0.9899
-    5. Prodenia litura <-> army worm: 0.9860
+
 
 MODERATE Difficulty:
   Classes: 15
   Similar pairs: 105
   Total samples: 8788
   Avg similarity: 0.9337
-  Top 5 pairs:
-    1. large cutworm <-> black cutworm: 0.9973
-    2. yellow cutworm <-> large cutworm: 0.9967
-    3. yellow cutworm <-> black cutworm: 0.9932
-    4. yellow rice borer <-> asiatic rice borer: 0.9911
-    5. tarnished plant bug <-> alfalfa plant bug: 0.9906
+
 
 HARD Difficulty:
   Classes: 45
   Similar pairs: 990
   Total samples: 37812
-  Avg similarity: 0.9369
-  Top 5 pairs:
-    1. large cutworm <-> black cutworm: 0.9973
-    2. yellow cutworm <-> large cutworm: 0.9967
-    3. small brown plant hopper <-> brown plant hopper: 0.9956
-    4. english grain aphid <-> bird cherry-oataphid: 0.9953
-    5. Toxoptera citricidus <-> Toxoptera aurantii: 0.9947
+  similarity: 0.9369
 
-============================================================
-Verification of Non-overlapping Property:
-Extreme ∩ High: 0
-Extreme ∩ Moderate: 0
-High ∩ Moderate: 0
-Extreme ∪ High ∪ Moderate: 35
-Hard contains all: True

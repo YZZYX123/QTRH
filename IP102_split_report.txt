@@ -27,7 +27,7 @@ MODERATE Difficulty:
   Classes: 15
   Similar pairs: 105
   Total samples: 8788
-  Avg similarity: 0.9337
+  similarity: 0.80~0.85
 
 
 HARD Difficulty:

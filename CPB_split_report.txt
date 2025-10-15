@@ -1,7 +1,6 @@
 Overall Statistics:
 
-Total classes in original dataset: 2
-Selected classes for morphological splits: 2
+
 
 Difficulty Distribution:
 EXTREME Difficulty:
@@ -13,16 +12,18 @@ Total samples: 1,297
 
 HIGH Difficulty:
 Classes: 2
+Similarity: 0.85~0.90
 Total samples: 1,946
 
 
 MODERATE Difficulty:
 Classes: 2
-Similar pairs: 0
+Similarity: 0.80~0.85
 Total samples: 2,703
 
 HARD Difficulty:
 Classes: 2
+Similarity > 0.75
 Total samples: 7,028
 
 

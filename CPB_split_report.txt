@@ -1,51 +1,28 @@
-CPB 形态学划分报告
-============================================================
+Overall Statistics:
 
-注意: 所有划分完全互不重叠 (CPB按样本数量金字塔)
+Total classes in original dataset: 2
+Selected classes for morphological splits: 2
 
-整体统计:
-原始数据集类别数: 2
-选择的类别数: 2
-
-金字塔结构 (非重叠, 按样本数量):
-Extreme (12%) < High (18%) < Moderate (25%) < Hard (45%)
-
-难度分布:
-
+Difficulty Distribution:
 EXTREME Difficulty:
-  类别数: 2
-  相似对数: 0
-  样本总数: 1297
-  平均相似度: 0.0000
-  涉及类别: ['Negative', 'Mite']
+Classes: 2
+Total samples: 1,297
+
+
 
 HIGH Difficulty:
-  类别数: 2
-  相似对数: 0
-  样本总数: 1946
-  平均相似度: 0.0000
-  涉及类别: ['Negative', 'Mite']
+Classes: 2
+Total samples: 1,946
+
 
 MODERATE Difficulty:
-  类别数: 2
-  相似对数: 0
-  样本总数: 2703
-  平均相似度: 0.0000
-  涉及类别: ['Negative', 'Mite']
+Classes: 2
+Similar pairs: 0
+Total samples: 2,703
 
 HARD Difficulty:
-  类别数: 2
-  相似对数: 0
-  样本总数: 7028
-  平均相似度: 0.0000
-  涉及类别: ['Negative', 'Mite']
+Classes: 2
+Total samples: 7,028
 
-============================================================
-验证非重叠性:
-Extreme ∩ High: 2
-Extreme ∩ Moderate: 2
-High ∩ Moderate: 2
-Extreme ∩ Hard: 2
-High ∩ Hard: 2
-Moderate ∩ Hard: 2
-所有难度类别总数: 2
+
+Extreme (10%) < High (15%) < Moderate (21%) < Hard (54%)

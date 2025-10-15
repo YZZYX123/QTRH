@@ -6,6 +6,7 @@ Selected classes for morphological splits: 2
 Difficulty Distribution:
 EXTREME Difficulty:
 Classes: 2
+Similarity > 0.90
 Total samples: 1,297
 
 
